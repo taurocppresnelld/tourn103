@@ -268,8 +268,8 @@ def run_training(task_id, model, model_type, expected_repo_name, hours_to_comple
     # docker_batch = [8,8,8,4,4,4]
     docker_batch = [1,1,1]
     docker_seq = ["1024,1024","768,768","512,512","1024,1024","768,768","512,512","1024,1024","768,768","512,512","1024,1024","768,768","512,512"]
-    docker_lrate = 0.003
-    last_lrate = 0.003
+    docker_lrate = 0.03
+    last_lrate = 0.03
     docker_unet_lrate = 0.0003
     last_unet_lrate = 0.0003
     docker_runtime = 10
